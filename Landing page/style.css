@@ -1,0 +1,95 @@
+
+body{
+    background-color:rgb(208, 202, 204);}
+.header {
+    padding: 20px ;
+    background-image: url("trial3.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 80vh;
+  }
+  .header-right, .sear, .imglo{
+    margin: 10px;
+  }
+  .imglo{
+    width:128px;height:128px;
+  }
+  .header-right {
+    margin-top: 1px;
+    text-align: right;
+  }
+  .sear {
+      width: 200px; /* Set a width for the container */
+      margin-left: 50px;
+      margin-right: 0%;
+  }
+  .search-input {
+      padding: 8px 30px 8px 10px;
+      border: none;
+      border-radius: 20px;
+      width: 200px;
+      transition: width 0.3s ease-in-out;
+  }
+  .header-right a {
+    color: black; /* Text color for the navigation links */
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .header-right a.active {
+    font-weight: bold;
+  }
+  .sup {
+    display: flex;
+  }
+  
+  .left, .right {
+    flex: 1;
+  }
+  .left {
+    text-align:center;
+  }
+  .right {
+    padding-right:50px ;
+    text-align:center;
+  
+  }
+  button {
+    color: black;
+    background:transparent;
+    border-radius: 20px;
+    padding: 10px;
+  
+  }
+  button:hover{
+    background-color: red;
+  }
+  img {
+    height:340px;
+    width:340px;
+  }
+  .go{
+    height: 10vh;
+    width: 50vh;
+    position: relative;
+    left: 40%;
+    animation: go 7s infinite;
+  }
+  @keyframes go{
+    0%{background-color: red;}
+    25%{background-color: #fff;}
+    50%{background-color: blue;}
+    75%{background-color: bisque;}
+    100%{background-color: gold;}
+  }
+  .bot{
+    text-align: center;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+  }
+  h3{
+    color: black;
+  }

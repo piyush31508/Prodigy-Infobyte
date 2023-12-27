@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width: 600px)
+  {
+    *{
+      font-size: 10px;
+      max-width:600px;
+    }
+    .header{
+      background-size: auto;
+      background-position:centre;
+    }
+    .header-right{
+      text-align: left;
+    }
+    .search-input {
+      width:20px;
+    }
+    .search-icon {
+        display: none; 
+    }
+    .imglo{
+      height:80px;
+      width:80px;
+    }
+    img{
+      height:150px;
+      width:150px;
+    }
+    .sup{
+      text-align: center;
+      background-color:rgb(208, 202, 204);
+    }
+    .go{
+      display:none;
+    }
+  }
