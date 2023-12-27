@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color:rgb(240, 240, 240);
+    color: rgb(50, 50, 50);
+}
+
+.container {
+    text-align: center;
+    background-color: #d58585;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 20px;
+}
+
+.board button {
+    font-size: 1.5em;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    color: #333;
+}
+
+.board button:hover {
+    background-color: #ddd;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.reset-btn:hover {
+    background-color: #2980b9;
+}
+
+.history-container {
+    margin-top: 20px;
+}
+
+.game-entry {
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Add additional styling based on your preference */
